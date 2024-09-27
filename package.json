@@ -1,13 +1,13 @@
 {
-  "name": "your-project-name",
+  "name": "chess-analysis-website",
   "version": "1.0.0",
-  "description": "A brief description of your project",
+  "description": " a free chess analysing website that can compare the played moves from the PGN to the best engine choices from stockfish and give feed back for these moves such as: Brilliant moves, Best moves, good moves, inaccuracies, mistakes, misses and Blunders for both players. can it also calculate accuracy for both players and then give an estimated elo based on there play in the game. can you also please include an evaluation bar and a chess.com styled chess board and pieces.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Your Name",
+  "author": "Nethore66",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {}
