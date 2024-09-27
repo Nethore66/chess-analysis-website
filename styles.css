@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.board-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chessboard {
+    width: 400px;
+    height: 400px;
+}
+
+.evaluation-bar {
+    width: 20px;
+    height: 400px;
+    background-color: #ddd;
+    margin-left: 20px;
+    position: relative;
+}
+
+.bar {
+    background-color: #4caf50;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+}
+
+.move-list {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.move-list ul {
+    list-style: none;
+}
+
+.accuracy {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
